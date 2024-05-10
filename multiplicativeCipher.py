@@ -31,7 +31,7 @@ def multiplicativeInverse(key, domain):
     if r1 == 1: 
         t1 = 0
         t2 = 1
-        q = int(str(Q)[::-1])   #inverse the value of q by string slicing reverse method
+        q = int(str(Q)[::-1])   #reverse the value of q by string slicing reverse method
 
         for i in range(flag):
             fakeQ = q
